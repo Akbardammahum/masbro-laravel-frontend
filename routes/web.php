@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Pesanan;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,3 +22,5 @@ Route::get('/', function () {
 Route::get('/header', function () {
     return view('layouts/header');
 });
+
+Route::get('/pesanan', [Pesanan::class, 'index'])->name('pesanan');
