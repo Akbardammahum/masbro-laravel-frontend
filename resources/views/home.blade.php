@@ -20,21 +20,35 @@
 
 <body class="bg-blue-600 w-full mx-auto flex flex-col">
     @include('layouts.header')
-    <div class="mx-auto w-full h-screen p-20 bg-slate-200 grid grid-cols-2 gap-2">
-        {{-- card 1 --}}
-        <div class="bg-white p-6 w-fit h-fit rounded-lg shadow-lg">
-            <h2 class="text-2xl font-bold mb-2 text-gray-800">Card with no image</h2>
-            <p class="text-gray-700">This is my cool new card!</p>
-            <p class="text-gray-700">This is my cool new card!</p>
+    <div class="mx-auto w-full h-screen p-20 bg-slate-200 grid grid-cols-2 gap-2 justify-center items-center">
+        {{-- Nested grid for pattern "+" --}}
+        <div class="grid grid-cols-2 gap-2 justify-center items-center">
+            {{-- card 1 --}}
+            <a href="{{ route('pesanan') }}">
 
+                <div class="bg-white p-6 w-fit h-fit rounded-lg shadow-lg">
+                    <h2 class="text-2xl font-bold mb-2 text-gray-800">Card with no image</h2>
+                    <p class="text-gray-700">This is my cool new card!</p>
+                </div>
+
+            </a>
+
+            <div class="bg-white p-6 w-fit h-fit rounded-lg shadow-lg">
+                <h2 class="text-2xl font-bold mb-2 text-gray-800">Card with no image</h2>
+                <p class="text-gray-700">This is my cool new card!</p>
+            </div>
+
+            {{-- card 2 --}}
+            <div class="bg-white p-6 w-fit h-fit rounded-lg shadow-lg">
+                <h2 class="text-2xl font-bold mb-2 text-gray-800">Card with no image</h2>
+                <p class="text-gray-700">This is my cool new card!</p>
+            </div>
+            <div class="bg-white p-6 w-fit h-fit rounded-lg shadow-lg">
+                <h2 class="text-2xl font-bold mb-2 text-gray-800">Card with no image</h2>
+                <p class="text-gray-700">This is my cool new card!</p>
+            </div>
         </div>
 
-        {{-- card 2 --}}
-        <div class="bg-white p-6 w-fit h-fit rounded-lg shadow-lg">
-            <h2 class="text-2xl font-bold mb-2 text-gray-800">Card with no image</h2>
-            <p class="text-gray-700">This is my cool new card!</p>
-
-        </div>
     </div>
 </body>
 
