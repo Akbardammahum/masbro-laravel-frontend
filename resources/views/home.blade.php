@@ -27,26 +27,35 @@
             <a href="{{ route('pesanan') }}">
 
                 <div class="bg-white p-6 w-fit h-fit rounded-lg shadow-lg">
-                    <h2 class="text-2xl font-bold mb-2 text-gray-800">Card with no image</h2>
+                    <h2 class="text-2xl font-bold mb-2 text-gray-800">Pesanan</h2>
                     <p class="text-gray-700">This is my cool new card!</p>
                 </div>
 
             </a>
+            <a href="{{ route('menu') }}">
 
-            <div class="bg-white p-6 w-fit h-fit rounded-lg shadow-lg">
-                <h2 class="text-2xl font-bold mb-2 text-gray-800">Card with no image</h2>
-                <p class="text-gray-700">This is my cool new card!</p>
-            </div>
+                <div class="bg-white p-6 w-fit h-fit rounded-lg shadow-lg">
+                    <h2 class="text-2xl font-bold mb-2 text-gray-800">Menu</h2>
+                    <p class="text-gray-700">This is my cool new card!</p>
+                </div>
 
-            {{-- card 2 --}}
-            <div class="bg-white p-6 w-fit h-fit rounded-lg shadow-lg">
-                <h2 class="text-2xl font-bold mb-2 text-gray-800">Card with no image</h2>
-                <p class="text-gray-700">This is my cool new card!</p>
-            </div>
-            <div class="bg-white p-6 w-fit h-fit rounded-lg shadow-lg">
-                <h2 class="text-2xl font-bold mb-2 text-gray-800">Card with no image</h2>
-                <p class="text-gray-700">This is my cool new card!</p>
-            </div>
+            </a>
+            <a href="{{ route('keuangan') }}">
+
+                <div class="bg-white p-6 w-fit h-fit rounded-lg shadow-lg">
+                    <h2 class="text-2xl font-bold mb-2 text-gray-800">Keuangan</h2>
+                    <p class="text-gray-700">This is my cool new card!</p>
+                </div>
+
+            </a>
+            <a href="{{ route('data') }}">
+
+                <div class="bg-white p-6 w-fit h-fit rounded-lg shadow-lg">
+                    <h2 class="text-2xl font-bold mb-2 text-gray-800">Data</h2>
+                    <p class="text-gray-700">This is my cool new card!</p>
+                </div>
+
+            </a>
         </div>
 
     </div>
