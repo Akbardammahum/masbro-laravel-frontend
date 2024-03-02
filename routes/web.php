@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\Data;
+use App\Http\Controllers\Keuangan;
+use App\Http\Controllers\Menu;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Pesanan;
 
@@ -24,3 +27,6 @@ Route::get('/header', function () {
 });
 
 Route::get('/pesanan', [Pesanan::class, 'index'])->name('pesanan');
+Route::get('/menu', [Menu::class, 'index'])->name('menu');
+Route::get('/keuangan', [Keuangan::class, 'index'])->name('keuangan');
+Route::get('/data', [Data::class, 'index'])->name('data');
