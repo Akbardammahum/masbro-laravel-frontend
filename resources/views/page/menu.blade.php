@@ -22,14 +22,14 @@
     <div class="container mx-auto mt-4">
         <!-- Tabs -->
         <ul id="tabs" class="flex border-b">
-            <li id="pesananMasuk" class="px-4 py-2"><a href="#first">Pesanan Masuk</a></li>
+            <li id="pesananMasuk" class="px-4 py-2"><a href="#first">Menu saya</a></li>
             <li id="pesananBatal" class="px-4 py-2"><a href="#second">Tambah Menu</a></li>
         </ul>
 
 
-        <!-- Tab Contents Tambah menu -->
-        <div id="tab-content-first">
-            <div id="second" class="p-4">
+        <!-- Tab Contents Menu saya -->
+        <div id="tab-contents-first">
+            <div id="first" class="p-4">
                 <div class="container mx-auto px-4 sm:px-8">
                     <div class="mt-0 mb-0">
                         <div class="font-sans text-black bg-white flex justify-between px-4">
@@ -45,8 +45,6 @@
                                 </button>
                             </div>
                         </div>
-
-
 
                         <div>
                             <h2 class="text-2xl font-semibold leading-tight">3 Produk</h2>
@@ -99,7 +97,7 @@
                                                     <div class="dropdown inline-block relative">
                                                         <button
                                                             class="bg-gray-300 text-gray-700 font-semibold py-2 px-4 rounded inline-flex items-center">
-                                                            <span class="mr-1">Dropdown</span>
+                                                            <span class="mr-1">Ready</span>
                                                             <svg class="fill-current h-4 w-4"
                                                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                                                                 <path
@@ -109,13 +107,10 @@
                                                         <ul class="dropdown-menu absolute hidden text-gray-700 pt-1">
                                                             <li class=""><a
                                                                     class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-                                                                    href="#">One</a></li>
+                                                                    href="#">Ready</a></li>
                                                             <li class=""><a
                                                                     class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-                                                                    href="#">Two</a></li>
-                                                            <li class=""><a
-                                                                    class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-                                                                    href="#">Three is the magic number</a></li>
+                                                                    href="#">Kosong</a></li>
                                                         </ul>
                                                     </div>
 
@@ -152,6 +147,103 @@
                 </div>
             </div>
         </div>
+
+        <!-- Tab Contents Tambah Menu -->
+        <div id="tab-content-second">
+            <div id="second" class="p-4">
+                <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                    <!-- form -->
+                    <div class="p-4">
+                        <div class="my-6">
+                            <div>
+                                <h2 class="text-2xl font-semibold leading-tight">Informasi Menu </h2>
+                            </div>
+                            <label class="block font-bold text-grey-darker mb-2" for="name">
+                                Tambahkan Foto Menu:
+                            </label>
+                            <div class="flex items-center justify-center w-full">
+                                <label for="dropzone-file"
+                                    class="flex flex-col items-center justify-center w-full h-64 border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-gray-50 dark:hover:bg-bray-800 dark:bg-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:hover:border-gray-500 dark:hover:bg-gray-600">
+                                    <div class="flex flex-col items-center justify-center pt-5 pb-6">
+                                        <svg class="w-8 h-8 mb-4 text-gray-500 dark:text-gray-400" aria-hidden="true"
+                                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 16">
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="2"
+                                                d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2" />
+                                        </svg>
+                                        <p class="mb-2 text-sm text-gray-500 dark:text-gray-400"><span
+                                                class="font-semibold">Click to upload</span> or drag and drop</p>
+                                        <p class="text-xs text-gray-500 dark:text-gray-400">SVG, PNG, JPG or GIF (MAX.
+                                            800x400px)</p>
+                                    </div>
+                                    <input id="dropzone-file" type="file" class="hidden" />
+                                </label>
+                            </div>
+                            <label class="block font-bold text-grey-darker mb-2" for="name">
+                                Nama Menu:
+                            </label>
+                            <input
+                                class="w-full py-2 px-3 text-gray-700 shadow appearance-none border border-grey-light hover:border-grey rounded leading-tight focus:outline-none focus:shadow-outline"
+                                id="name" type="text" v-model="name" placeholder="Masukan Nama Menu">
+                        </div>
+
+                        <div class="my-6">
+                            <label class="block font-bold text-grey-darker mb-2" for="age">
+                                Deskripsi Menu:
+                            </label>
+                            <input
+                                class="w-full py-2 px-3 text-gray-700 shadow appearance-none border rounded focus:outline-none focus:shadow-outline"
+                                id="age" type="text" v-model="age" placeholder="Masukan Deskripsi Menu">
+                        </div>
+                        <div>
+                            <label class="block font-bold text-grey-darker mb-2" for="age">
+                                Kategori:
+                            </label>
+                            <div class="dropdown inline-block relative">
+                                <button
+                                    class="bg-gray-300 text-gray-700 font-semibold py-2 px-4 rounded inline-flex items-center">
+                                    <span class="mr-1">Makanan</span>
+                                    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 20 20">
+                                        <path
+                                            d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                                    </svg>
+                                </button>
+                                <ul class="dropdown-menu absolute hidden text-gray-700 pt-1">
+                                    <li class=""><a
+                                            class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                                            href="#">Makanan</a></li>
+                                    <li class=""><a
+                                            class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                                            href="#">Minuman</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h2 class="text-2xl font-semibold leading-tight">Informasi Penjualan </h2>
+                            <label class="block font-bold text-grey-darker mb-2" for="age">
+                                Harga :
+                            </label>
+                            <input
+                                class="w-full py-2 px-3 text-gray-700 shadow appearance-none border rounded focus:outline-none focus:shadow-outline"
+                                id="age" type="text" v-model="age" placeholder="Masukan Harga">
+                        </div>
+                        <!-- button simpan -->
+                        <button
+                            class="col-start-9 col-end-11 rounded-lg px-4 py-2 bg-green-700 text-green-100 hover:bg-green-800 duration-300">Simpan
+                            & Arsipkan</button>
+                        <button
+                            class="col-start-11 col-end-13 rounded-lg px-4 py-2 bg-green-700 text-green-100 hover:bg-green-800 duration-300">Simpan
+                            & Tampilkan</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </id=>
+    </div>
+
+
     </div>
     </div>
 
@@ -194,7 +286,80 @@
             });
         });
     </script>
-
+    <!-- JavaScript for CRUD -->
+    {{-- <script>
+        new Vue({
+            methods: { //functions
+                addPerson() {
+                    const person = {
+                        name: this.name,
+                        age: this.age
+                    };
+                    switch (true) {
+                        case (this.age <= 19):
+                            if (this.youngPeople.length < 5) {
+                                this.youngPeople.push(person);
+                            } else {
+                                alert("A tabela de Jovens está cheia!");
+                            }
+                            break;
+                        case (this.age >= 60):
+                            if (this.elderlyPeople.length < 5) {
+                                this.elderlyPeople.push(person);
+                            } else {
+                                alert("A tabela de Idosos está cheia!");
+                            }
+                            break;
+                        default:
+                            if (this.adultPeople.length < 5) {
+                                this.adultPeople.push(person);
+                            } else {
+                                alert("A tabela de Adultos está cheia!");
+                            }
+                            break;
+                    }
+                    this.name = "";
+                    this.age = "";
+                    this.sortPeople();
+                },
+                editPerson(person) {
+                    this.name = person.name;
+                    this.age = person.age;
+                    switch (true) {
+                        case (this.youngPeople.includes(person)):
+                            this.youngPeople.splice(this.youngPeople.indexOf(person), 1);
+                            break;
+                        case (this.elderlyPeople.includes(person)):
+                            this.elderlyPeople.splice(this.elderlyPeople.indexOf(person), 1);
+                            break;
+                        default:
+                            this.adultPeople.splice(this.adultPeople.indexOf(person), 1);
+                            break;
+                    }
+                    this.sortPeople();
+                },
+                deletePerson(person) {
+                    switch (true) {
+                        case (this.youngPeople.includes(person)):
+                            this.youngPeople.splice(this.youngPeople.indexOf(person), 1);
+                            break;
+                        case (this.elderlyPeople.includes(person)):
+                            this.elderlyPeople.splice(this.elderlyPeople.indexOf(person), 1);
+                            break;
+                        default:
+                            this.adultPeople.splice(this.adultPeople.indexOf(person), 1);
+                            break;
+                    }
+                    this.sortPeople();
+                },
+                sortPeople() {
+                    this.youngPeople.sort((a, b) => b.age - a.age);
+                    this.adultPeople.sort((a, b) => b.age - a.age);
+                    this.elderlyPeople.sort((a, b) => b.age - a.age);
+                }
+            }
+        });
+    </script> --}}
 </body>
 
 </html>
