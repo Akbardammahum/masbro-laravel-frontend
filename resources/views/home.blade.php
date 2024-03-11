@@ -153,11 +153,6 @@
                 <p class="text-gray-700">This is another cool new card!</p>
             </div>
 
-            <div class="bg-white p-6 rounded-lg shadow-lg mt-4 w-500 h-300">
-                <h2 class="text-2xl font-bold mb-2 text-gray-800">History pesanan masuk</h2>
-                <p class="text-gray-700">This is another cool new card!</p>
-            </div>
-
         </div>
     </div>
     <script>
