@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Data;
+use App\Http\Controllers\home;
 use App\Http\Controllers\Keuangan;
 use App\Http\Controllers\Menu;
 use Illuminate\Support\Facades\Route;
@@ -26,6 +27,7 @@ Route::get('/header', function () {
     return view('layouts/header');
 });
 
+Route::get('/home', [home::class, 'index'])->name('home');
 Route::get('/pesanan', [Pesanan::class, 'index'])->name('pesanan');
 Route::get('/menu', [Menu::class, 'index'])->name('menu');
 Route::get('/keuangan', [Keuangan::class, 'index'])->name('keuangan');
