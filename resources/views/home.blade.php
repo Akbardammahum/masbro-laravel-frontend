@@ -182,7 +182,7 @@
                         </div>
                         <div>
                             <span class="block text-gray-500">Total Pesanan Dibatalkan</span>
-                            <span class="block text-2xl font-bold">12</span>
+                            <span class="block text-2xl font-bold">50</span>
                         </div>
                     </div>
                     <div class="flex items-center p-8 bg-white shadow rounded-lg">
