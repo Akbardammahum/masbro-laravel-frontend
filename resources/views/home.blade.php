@@ -19,7 +19,7 @@
             display: block;
 
         }
-      
+
     </style>
 
 </head>
@@ -242,24 +242,24 @@
                                             <img src="https://randomuser.me/api/portraits/women/82.jpg"
                                                 alt="Annette Watson profile picture">
                                         </div>
-                                        <span class="text-gray-600">Annette Watson</span>
-                                        <span class="ml-auto font-semibold">9.3</span>
+                                        <span class="text-gray-600">Ayam Geprek</span>
+                                        <span class="ml-auto font-semibold">12</span>
                                     </li>
                                     <li class="flex items-center">
                                         <div class="h-10 w-10 mr-3 bg-gray-100 rounded-full overflow-hidden">
                                             <img src="https://randomuser.me/api/portraits/men/81.jpg"
                                                 alt="Calvin Steward profile picture">
                                         </div>
-                                        <span class="text-gray-600">Calvin Steward</span>
-                                        <span class="ml-auto font-semibold">8.9</span>
+                                        <span class="text-gray-600">Nasi Geprek</span>
+                                        <span class="ml-auto font-semibold">10</span>
                                     </li>
                                     <li class="flex items-center">
                                         <div class="h-10 w-10 mr-3 bg-gray-100 rounded-full overflow-hidden">
                                             <img src="https://randomuser.me/api/portraits/men/80.jpg"
                                                 alt="Ralph Richards profile picture">
                                         </div>
-                                        <span class="text-gray-600">Ralph Richards</span>
-                                        <span class="ml-auto font-semibold">8.7</span>
+                                        <span class="text-gray-600">Jamur Geprek</span>
+                                        <span class="ml-auto font-semibold">8</span>
                                     </li>
 
                                     <li class="flex items-center">
@@ -267,16 +267,16 @@
                                             <img src="https://randomuser.me/api/portraits/men/76.jpg"
                                                 alt="Pat Mckinney profile picture">
                                         </div>
-                                        <span class="text-gray-600">Pat Mckinney</span>
-                                        <span class="ml-auto font-semibold">7.9</span>
+                                        <span class="text-gray-600">Ayam Sosis</span>
+                                        <span class="ml-auto font-semibold">8</span>
                                     </li>
                                     <li class="flex items-center">
                                         <div class="h-10 w-10 mr-3 bg-gray-100 rounded-full overflow-hidden">
                                             <img src="https://randomuser.me/api/portraits/men/75.jpg"
                                                 alt="Norman Walters profile picture">
                                         </div>
-                                        <span class="text-gray-600">Norman Walters</span>
-                                        <span class="ml-auto font-semibold">7.7</span>
+                                        <span class="text-gray-600">Jamur Enoki</span>
+                                        <span class="ml-auto font-semibold">5</span>
                                     </li>
                                 </ul>
                             </div>
