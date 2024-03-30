@@ -19,17 +19,7 @@
             display: block;
 
         }
-        aside::-webkit-scrollbar {
-            width: .4em;
-        }
-
-        aside::-webkit-scrollbar-track {
-            box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-        }
-
-        aside::-webkit-scrollbar-thumb {
-            background-color: rgba(255, 255, 255, 0.495);
-            outline: 1px solid slategrey;
+      
     </style>
 
 </head>
