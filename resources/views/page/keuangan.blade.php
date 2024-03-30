@@ -172,22 +172,6 @@
                                                         <td
                                                             class="border-b border-gray-200 bg-white px-5 py-5 text-sm"
                                                         >
-                                                            <div class="ml-3">
-                                                                <p
-                                                                    class="whitespace-no-wrap text-gray-900"
-                                                                >
-                                                                    Akbar gantenk
-                                                                </p>
-                                                                <p
-                                                                    class="whitespace-no-wrap text-gray-600"
-                                                                >
-                                                                    001
-                                                                </p>
-                                                            </div>
-                                                        </td>
-                                                        <td
-                                                            class="border-b border-gray-200 bg-white px-5 py-5 text-sm"
-                                                        >
                                                             <div
                                                                 class="flex items-center"
                                                             >
@@ -210,6 +194,17 @@
                                                                     {{-- <p class="text-gray-600 whitespace-no-wrap">000004</p> --}}
                                                                 </div>
                                                             </div>
+                                                        </td>
+                                                        <td
+                                                            class="border-b border-gray-200 bg-white px-5 py-5 text-sm"
+                                                        >
+                                                        <div class="ml-3">
+                                                            <p
+                                                                class="whitespace-no-wrap text-gray-900"
+                                                            >
+                                                                02 maret 2024
+                                                            </p>
+                                                        </div>
                                                         </td>
                                                         <td
                                                             class="border-b border-gray-200 bg-white px-5 py-5 text-sm"
@@ -264,22 +259,6 @@
                                                         <td
                                                             class="border-b border-gray-200 bg-white px-5 py-5 text-sm"
                                                         >
-                                                            <div class="ml-3">
-                                                                <p
-                                                                    class="whitespace-no-wrap text-gray-900"
-                                                                >
-                                                                    Akbar gantenk
-                                                                </p>
-                                                                <p
-                                                                    class="whitespace-no-wrap text-gray-600"
-                                                                >
-                                                                    001
-                                                                </p>
-                                                            </div>
-                                                        </td>
-                                                        <td
-                                                            class="border-b border-gray-200 bg-white px-5 py-5 text-sm"
-                                                        >
                                                             <div
                                                                 class="flex items-center"
                                                             >
@@ -302,6 +281,17 @@
                                                                     {{-- <p class="text-gray-600 whitespace-no-wrap">000004</p> --}}
                                                                 </div>
                                                             </div>
+                                                        </td>
+                                                        <td
+                                                            class="border-b border-gray-200 bg-white px-5 py-5 text-sm"
+                                                        >
+                                                        <div class="ml-3">
+                                                            <p
+                                                                class="whitespace-no-wrap text-gray-900"
+                                                            >
+                                                                02 maret 2024
+                                                            </p>
+                                                        </div>
                                                         </td>
                                                         <td
                                                             class="border-b border-gray-200 bg-white px-5 py-5 text-sm"
@@ -356,22 +346,6 @@
                                                         <td
                                                             class="border-b border-gray-200 bg-white px-5 py-5 text-sm"
                                                         >
-                                                            <div class="ml-3">
-                                                                <p
-                                                                    class="whitespace-no-wrap text-gray-900"
-                                                                >
-                                                                    Akbar gantenk
-                                                                </p>
-                                                                <p
-                                                                    class="whitespace-no-wrap text-gray-600"
-                                                                >
-                                                                    001
-                                                                </p>
-                                                            </div>
-                                                        </td>
-                                                        <td
-                                                            class="border-b border-gray-200 bg-white px-5 py-5 text-sm"
-                                                        >
                                                             <div
                                                                 class="flex items-center"
                                                             >
@@ -394,6 +368,17 @@
                                                                     {{-- <p class="text-gray-600 whitespace-no-wrap">000004</p> --}}
                                                                 </div>
                                                             </div>
+                                                        </td>
+                                                        <td
+                                                            class="border-b border-gray-200 bg-white px-5 py-5 text-sm"
+                                                        >
+                                                        <div class="ml-3">
+                                                            <p
+                                                                class="whitespace-no-wrap text-gray-900"
+                                                            >
+                                                                02 maret 2024
+                                                            </p>
+                                                        </div>
                                                         </td>
                                                         <td
                                                             class="border-b border-gray-200 bg-white px-5 py-5 text-sm"
@@ -444,6 +429,7 @@
                                                             </td>
                                                         --}}
                                                     </tr>
+
                                                 </tbody>
                                             </table>
                                         </div>

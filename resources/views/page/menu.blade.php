@@ -184,28 +184,12 @@
                                                 </td>
 
                                                 <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                                    <div class="p-10">
-                                                            <label for="toggleB"
-                                                                class="flex items-center cursor-pointer">
-                                                                <!-- toggle -->
-                                                                <div class="relative">
-                                                                    <!-- input -->
-                                                                    <input type="checkbox" id="toggleB"
-                                                                        class="sr-only">
-                                                                    <!-- line -->
-                                                                    <div
-                                                                        class="block bg-gray-600 w-14 h-8 rounded-full">
-                                                                    </div>
-                                                                    <!-- dot -->
-                                                                    <div
-                                                                        class="dot absolute left-1 top-1 bg-white w-6 h-6 rounded-full transition">
-                                                                    </div>
-                                                                </div>
-                                                                <!-- label -->
-                                                                <div class="ml-3 text-gray-700 font-medium">
-                                                                    Toggle Me!
-                                                                </div>
-                                                            </label>
+                                                    <span class="text-xs mx-5">Tersedia</span>
+                                                        <label for="toggle" class="flex items-center cursor-pointer">
+                                                          <input type="checkbox" id="toggle" class="sr-only peer">
+                                                          <div class="block relative bg-gray-500 w-16 h-9 p-1 rounded-full before:absolute before:bg-red-600 before:w-7 before:h-7 before:p-1 before:rounded-full before:transition-all before:duration-500 before:left-1 peer-checked:before:left-8 peer-checked:before:bg-green-500"></div>
+                                                        </label>
+                                                      </div>
                                                 </td>
                                                 <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                                                     <p class="text-gray-900 whitespace-no-wrap">Rp. 13.000 <i
@@ -213,12 +197,7 @@
                                                     {{-- <p class="text-gray-600 whitespace-no-wrap">Due in 3 days</p> --}}
                                                 </td>
                                                 <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                                    <span
-                                                        class="relative inline-block px-3 py-1 font-semibold text-red leading-tight">
-                                                        <span aria-hidden
-                                                            class="absolute inset-0 bg-red-500 opacity-50 rounded-full"></span>
-                                                        <span class="relative">Dibatalkan</span>
-                                                    </span>
+                                                    <p class="text-gray-900 whitespace-no-wrap"> 12 </p>
                                                 </td>
                                                 {{-- <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm text-right">
                                                 <button type="button"
